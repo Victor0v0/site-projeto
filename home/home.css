@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    padding: 25px 0;
+    word-spacing: 10px;
+}
+
+.logo{
+    width: 10%;
+    transform: scale(0.2);
+    width: 1px;
+    height: 1px;
+    position: relative;
+    left: 0;
+}
+
+.menu{
+    width: 95%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+section.sobre{
+    position: relative;
+}
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+}
+.texto-sobre h1{
+    font-size: 30px;
+    height: 90px;
+    width: 80%;
+    margin-top: 200px;
+    margin-left: -150px;
+}
+.texto-sobre button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 0;
+    color: aliceblue;
+    background-color: rgb(58, 66, 206);
+    border-radius: 60px;
+    width: 199px;
+    height: 45px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: -100px;
+    font-size: medium;
+    transform: scale(1.4);
+}
+.home-button button{
+   background-color: rgb(24, 54, 199);
+   border: none;
+   position: absolute;
+   margin-left: -200px;
+   margin-top: 25px;
+   padding: 20px 50px;
+   font-size: 30px;
+   color: aliceblue;
+   font-weight: bold;
+   border-radius: 30px;
+   cursor: pointer;
+    }
+
+.lixo-tacar img{
+    transform: scale(0.7);
+}
+body{
+    background-color: lavender;
+}
